@@ -1,0 +1,216 @@
+/* BODY */
+body{
+  background-color: #ededf3;
+
+
+}
+
+.vl {
+  border-left: 3px solid #f8f8f8;
+  height: 330px;
+  position: absolute;
+  left: 50%;
+  bottom: 32%;
+
+}
+/* NAVIGATION BAR */
+
+.nav{
+  padding: 7% 15%;
+  background-color: #232f3e;
+
+}
+.navbar-brand{
+  font-size: 3rem;
+  font-family: 'Righteous', cursive;
+  padding-right: 50px;
+}
+.nav-item{
+padding-right: 5px;
+}
+.dot_com{
+  font-size: 1.5rem;
+}
+.search_bar{
+margin-left: 100px;
+margin-right: 5px;
+}
+.nav-link{
+  color: #ece8d9;
+  font-size: 1.5rem;
+}
+
+/* FIRST BANNER */
+
+#banner{
+  width: 100%;
+  height: 350px;
+  background-color: #d7ec73;
+  background-image: linear-gradient(to left bottom, rgba(246, 75, 60, 0.5), rgba(195, 245, 132, 1));
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.banner_headings{
+  text-align: center;
+  width: 50rem;
+  color: #3a4553;
+}
+.banner_gameinfo{
+  font-family: 'Lilita One', cursive;
+  color: #131a22;
+
+  animation-name: banneranifortwo;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+
+.bootbtn{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+
+}
+
+.bootbtn2{
+  position: absolute;
+  top: 50%;
+  right: 25%;
+
+}
+.btnbox{
+  width: 100px;
+  background-color: red;
+}
+.banneranione{
+animation-name: banneraniforone;
+animation-duration: 2s;
+animation-delay: 0.5s;
+animation-timing-function: ease-out;
+}
+
+@keyframes banneraniforone {
+0%{
+  opacity: 0;
+  transform: translateY(-300px);
+
+}
+20%{
+  opacity: 1;
+  transform: translateY(30px);
+
+}
+100%{
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
+@keyframes banneranifortwo {
+  0%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+20%{
+  opacity: 1;
+  transform: translateY(50px);
+}
+
+100%{
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
+/* CAROUSEL_FIRST */
+
+#carousel_parent{
+  background-color: #333;
+  height: 500px;
+  width: 100%;
+border-radius: 200px;
+
+
+}
+/* CAROUSEL_IMAGES */
+.freefire_heading{
+  text-align: right;
+}
+
+/* CARD */
+
+.card{
+  margin: 3% 5%;
+}
+.rent_btn{
+  margin-left: 20%;
+}
+.buy_btn{
+}
+.cart_button{
+  margin-top: 5%;
+}
+
+
+
+
+
+.banner_point{
+  text-align: center;
+  color: #fff;
+}
+
+/* FOOTER */
+#footer{
+  width: 100%;
+  height: 500px;
+  background-color: #232f3e;
+
+
+
+  }
+  .footer_texts{
+    color: #fff;
+    line-height: 1rem;
+
+  }
+.footer_get{
+padding-left: 160px;
+padding-top: 30px;
+}
+.footer_contact{
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.footer_money{
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.footer_help{
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.footer_brand{
+  font-size: 3rem;
+  font-family: 'Righteous', cursive;
+  position: relative;
+  left: 550px;
+}
+.footer_copyright{
+  color: #fff;
+  position: relative;
+  left: 600px;
+}
+.footer_para{
+position: relative;
+right: 30px;
+line-height: 1.5rem;
+
+}
+.rule{
+border-style: none;
+border-top-style: dotted;
+border-color: #3a4553;
+border-width: 5px;
+width: 5%;
+}
